@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400&display=swap');
+
+body {
+    font-family: 'Amaranth', sans-serif;
+    background-color: pink;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, font-size 0.2s ease;
+}
+
+#yes {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#no {
+    background-color: #444;
+    color: white;
+}
+
+#yes:hover, #no:hover {
+    transform: scale(1.1);
+}
+
